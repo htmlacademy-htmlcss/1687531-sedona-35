@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Александр Фалин](https://up.htmlacademy.ru/htmlcss/35/user/1687531).
-* Наставник: `Неизвестно`.
+* Наставник: [Михаил Кислый](https://htmlacademy.ru/profile/smart-grizzly).
 
 ---
 
