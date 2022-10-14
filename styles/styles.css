@@ -56,17 +56,26 @@ body {
 
 }
 
+.visually-hidden {
+  display: none;
+}
+
 .navigation-button {
   font-family: "PT Sans", sans-serif;
   text-transform: uppercase;
+  font-style: normal;
   font-size: 16px;
-  font-weight: 20px;
+  line-height: 20px;
+  font-weight: 700;
   color: #FFFFFF;
   background-color: #756157;
-  height: 36px;
-  width: 160px;
+  width: 92px;
+  height: 20px;
   border-radius: 4px;
-  padding: 8px 50px 8px 50px;
+  padding: 8px 50px;
+  display: flex;
+  text-decoration: none;
+
 }
 
 .main-index {
@@ -141,8 +150,9 @@ body {
   font-family: "PT Sans", sans-serif;
   text-transform: uppercase;
   text-decoration: none;
+  font-weight: 700;
   font-size: 20px;
-  font-weight: 36px;
+  line-height: 36px;
   color: #FFFFFF;
   background-color: #756157;
   height: 36px;
@@ -154,6 +164,7 @@ body {
 .page-footer {
   background-image: url(../images/fon-main-footer.jpg);
   background-repeat: no-repeat;
+  background-size: 1200px 415px;
 }
 
 .subscribe {
@@ -201,6 +212,8 @@ body {
 .block-сontrols {
   background-image: url(../images/catalog-background.jpg);
   background-repeat: no-repeat;
+  background-size: 1500px 412px;
+
 }
 
 .inner-main-title {
@@ -261,6 +274,7 @@ body {
   width: 140px;
   height: 36px;
   text-decoration: none;
+  padding: 8px 50px;
 }
 
 .product-card-button-favourites {
@@ -273,6 +287,20 @@ body {
   background: #82B3D3;
   border-radius: 4px;
   text-decoration: none;
+  padding: 8px 50px;
+}
+
+.product-card-button-selected {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  width: 140px;
+  height: 36px;
+  background: #7DB54F;
+  border-radius: 4px;
+  text-decoration: none;
+  padding: 8px 50px;
 }
 
 .button-rang {
@@ -286,7 +314,9 @@ body {
   width: 140px;
   height: 37px;
   text-decoration: none;
+  padding: 8px 50px;
 }
+
 .pagination-current {
   font-style: normal;
   font-weight: 700;
@@ -299,7 +329,8 @@ body {
   width: 60px;
   height: 60px;
 }
-.pagination-link{
+
+.pagination-link {
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
@@ -311,12 +342,14 @@ body {
   width: 60px;
   height: 60px;
 }
-.pagination-link-no{
+
+.pagination-link-no {
   font-weight: 400;
   font-size: 22px;
   line-height: 26px;
   color: #000000;
 }
-.catalog-footer{
+
+.catalog-footer {
   background-color: #FFFFFF;
 }
