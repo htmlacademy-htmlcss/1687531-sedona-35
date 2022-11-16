@@ -12,57 +12,39 @@
   <body>
     <header class="page-header">
       <nav class="navigation">
-        <a class="logo-header" href="index.html"><img сlass="logo" src="images/logo-sedona.svg" width="138" height="64"
-            alt="Логотип Седоны,c переходом на главную."></a>
-        <ul class="navigation-list">
+        <a class="navigation-logo" href="index.html">
+          <img class="logo-main" src="images/logo-sedona.svg" width="139" height="70"
+            alt="Логотип Седоны, с переходом на главную страницу.">
+        </a>
+        <ul class="navigation-menu">
           <li class="navigation-item">
-            <a class="navigation-link" href="#">Главная</a>
+            <a class="navigation-link " href="#">Главная</a>
           </li>
           <li class="navigation-item">
-            <a class="navigation-link" href="#">О седоне</a>
+            <a class="navigation-link" href="#">О Седоне</a>
           </li>
-          <li class="navigation-item">
-            <a class="navigation-link navigation-link-hotels" href="catalog.html">Гостиницы</a>
+          <li class="navigation-item navigation-link-current">
+            <a class="navigation-link" href="catalog.html">Гостиницы</a>
           </li>
         </ul>
-        <ul class="navigation-list navigation-user">
-          <li class="navigation-item-search">
-            <a clas="navigation-client" href="#">
-              <svg aria-hidden="true" focusable="false" width="44" height="64" viewBox="0 0 44 64" fill="none"
-                xmlns="http://www.w3.org/2000/svg">
-                <path fill-rule="evenodd" clip-rule="evenodd"
-                  d="M31.5 40.0083L27.8 36.3287C28.8 35.0359 29.5 33.3453 29.5 31.4558C29.5 27.0801 25.9 23.5 21.5 23.5C17.1 23.5 13.5 27.1796 13.5 31.5552C13.5 35.9309 17.1 39.511 21.5 39.511C23.3 39.511 25 38.9144 26.4 37.8204L30.1 41.5L31.5 40.0083ZM21.5 37.5221C18.2 37.5221 15.5 34.837 15.5 31.5552C15.5 28.2735 18.2 25.5884 21.5 25.5884C24.8 25.5884 27.5 28.2735 27.5 31.5552C27.5 34.837 24.8 37.5221 21.5 37.5221Z"
-                  fill="black" />
-                <span class="visually-hidden">
-                  Поиск
-                </span>
+        <ul class="navigation-user">
+          <li class="navigation-item-user">
+            <a class="navigation-link-user" href="#">
+              <span class="visually-hidden">Поиск.</span>
+              <svg class="navigation-icon" width="44" height="64" viewBox="0 0 44 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M31.5 40.0083L27.8 36.3287C28.8 35.0359 29.5 33.3453 29.5 31.4558C29.5 27.0801 25.9 23.5 21.5 23.5C17.1 23.5 13.5 27.1796 13.5 31.5552C13.5 35.9309 17.1 39.511 21.5 39.511C23.3 39.511 25 38.9144 26.4 37.8204L30.1 41.5L31.5 40.0083ZM21.5 37.5221C18.2 37.5221 15.5 34.837 15.5 31.5552C15.5 28.2735 18.2 25.5884 21.5 25.5884C24.8 25.5884 27.5 28.2735 27.5 31.5552C27.5 34.837 24.8 37.5221 21.5 37.5221Z" />
+                </svg>
             </a>
           </li>
-          <li class="navigation-item">
-            <a class="navigation-client" href="#">
-              <svg aria-hidden="true" focusable="false" width="44" height="64" fill="none"
-                xmlns="http://www.w3.org/2000/svg">
-                <path fill-rule="evenodd" clip-rule="evenodd"
-                  d="M21.9 41a.9.9 0 0 1-.8-.4c-5.4-6.1-6.7-7.5-7-7.9a5.4 5.4 0 0 1 4.4-8.7c1.3 0 2.5.5 3.5 1.3a5.46 5.46 0 0 1 9 4.1c0 1.3-.5 2.5-1.3 3.4l-7 7.9c-.2.2-.4.3-.8.3Zm-6-9.5c.3.4 3.5 4 6.1 6.9l6.2-7c.5-.5.7-1.2.7-2 0-1.8-1.5-3.3-3.3-3.3-1 0-2 .5-2.7 1.3-.3.3-.6.4-.9.4-.3 0-.6-.2-.8-.4-.7-.8-1.7-1.3-2.7-1.3-1.8 0-3.3 1.5-3.3 3.3-.1.9.3 1.6.7 2.1-.1 0-.1 0 0 0Z"
-                  fill="#000" />
-                <rect x="20" y="11" width="20" height="20" rx="10" fill="#7DB54F" />
-                <path
-                  d="M25.13 24.26h1.4v-4.84l.1-.59-.4.47-1.1.79-.38-.51 2.2-1.7h.36v6.38h1.37V25h-3.55v-.74Zm8.83-4.67c0 .35-.07.72-.2 1.09a10.88 10.88 0 0 1-1.21 2.21c-.26.35-.52.69-.78 1.01l-.49.43v.04l.64-.11h2.18V25h-3.98v-.29a33.15 33.15 0 0 0 1.17-1.32 15.09 15.09 0 0 0 1.25-1.83c.18-.32.32-.64.43-.95.1-.31.16-.61.16-.89 0-.33-.1-.6-.28-.81-.19-.22-.47-.33-.85-.33-.25 0-.5.05-.74.16-.24.1-.45.22-.62.35l-.33-.57c.23-.2.51-.36.83-.47.32-.11.66-.17 1.03-.17.29 0 .54.04.76.13a1.5 1.5 0 0 1 .91.9c.08.2.12.43.12.68Z"
-                  fill="#fff" />
+          <li class="navigation-item-user">
+            <a class="navigation-link-user navigation-link-favorite" href="#">
+              <span class="visually-hidden">Избранное.</span>
+              <svg class="navigation-icon"  width="44" height="64" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M21.9 41a.9.9 0 0 1-.8-.4c-5.4-6.1-6.7-7.5-7-7.9a5.4 5.4 0 0 1 4.4-8.7c1.3 0 2.5.5 3.5 1.3a5.46 5.46 0 0 1 9 4.1c0 1.3-.5 2.5-1.3 3.4l-7 7.9c-.2.2-.4.3-.8.3Zm-6-9.5c.3.4 3.5 4 6.1 6.9l6.2-7c.5-.5.7-1.2.7-2 0-1.8-1.5-3.3-3.3-3.3-1 0-2 .5-2.7 1.3-.3.3-.6.4-.9.4-.3 0-.6-.2-.8-.4-.7-.8-1.7-1.3-2.7-1.3-1.8 0-3.3 1.5-3.3 3.3-.1.9.3 1.6.7 2.1-.1 0-.1 0 0 0Z" fill="#000"/><rect x="20" y="11" width="20" height="20" rx="10" fill="#7DB54F"/><path d="M25.13 24.26h1.4v-4.84l.1-.59-.4.47-1.1.79-.38-.51 2.2-1.7h.36v6.38h1.37V25h-3.55v-.74Zm8.83-4.67c0 .35-.07.72-.2 1.09a10.88 10.88 0 0 1-1.21 2.21c-.26.35-.52.69-.78 1.01l-.49.43v.04l.64-.11h2.18V25h-3.98v-.29a33.15 33.15 0 0 0 1.17-1.32 15.09 15.09 0 0 0 1.25-1.83c.18-.32.32-.64.43-.95.1-.31.16-.61.16-.89 0-.33-.1-.6-.28-.81-.19-.22-.47-.33-.85-.33-.25 0-.5.05-.74.16-.24.1-.45.22-.62.35l-.33-.57c.23-.2.51-.36.83-.47.32-.11.66-.17 1.03-.17.29 0 .54.04.76.13a1.5 1.5 0 0 1 .91.9c.08.2.12.43.12.68Z" />
               </svg>
-              <span class="visually-hidden">
-                Избранное
-              </span>
-            </a>
-          </li>
-          <li class="navigation-item">
-            <a href="#">
-              <span class="navigation-button">
-                Хочу сюда!
-              </span>
             </a>
           </li>
         </ul>
+        <a class="button-navigation" href="#">Хочу сюда!</a>
       </nav>
     </header>
     <main class="main-inner main-container">
@@ -77,15 +59,19 @@
                   <span class="visually-hidden">Главная.</span>
                   <svg aria-label="true" focusable="false" width="12" height="12" viewBox="0 0 12 12" fill="none"
                     xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M6 .3 0 5.8V12h12V5.8L6 .3ZM11 11H1V6.2l5-4.5 5 4.5V11Z" fill="#fff" />
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                      d="M6 .3 0 5.8V12h12V5.8L6 .3ZM11 11H1V6.2l5-4.5 5 4.5V11Z" fill="#fff" />
                     <path fill-rule="evenodd" clip-rule="evenodd" d="M4 10h1V7.5h2V10h1V6.5H4V10Z" fill="#fff" />
                   </svg>
                 </a>
               </li>
               <li class=" breadcrumbs-next">
-                <svg aria-hidden="true" focusable="false" width="8" height="11" viewBox="0 0 8 11" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path fill-rule="evenodd" clip-rule="evenodd" d="M6.91526 4.96875L2.16526 0.71875C1.91526 0.46875 1.41526 0.46875 1.04026 0.71875C0.665263 0.96875 0.790263 1.46875 1.04026 1.71875L5.16526 5.46875L1.16526 9.21875C0.915263 9.46875 0.915263 9.96875 1.16526 10.2188C1.16526 10.3438 1.54026 10.4688 1.66526 10.4688C1.79026 10.4688 2.04026 10.3438 2.16526 10.2188L6.91526 5.96875C7.29026 5.71875 7.29026 5.21875 6.91526 4.96875Z" fill="white"/>
-                  </svg>
+                <svg aria-hidden="true" focusable="false" width="8" height="11" viewBox="0 0 8 11" fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M6.91526 4.96875L2.16526 0.71875C1.91526 0.46875 1.41526 0.46875 1.04026 0.71875C0.665263 0.96875 0.790263 1.46875 1.04026 1.71875L5.16526 5.46875L1.16526 9.21875C0.915263 9.46875 0.915263 9.96875 1.16526 10.2188C1.16526 10.3438 1.54026 10.4688 1.66526 10.4688C1.79026 10.4688 2.04026 10.3438 2.16526 10.2188L6.91526 5.96875C7.29026 5.71875 7.29026 5.21875 6.91526 4.96875Z"
+                    fill="white" />
+                </svg>
               </li>
               <li class="breadcrumbs-item">
                 <a class="breadcrumbs-link" href="#">Гостиницы </a>
@@ -192,69 +178,74 @@
             <h3 class="visually-hidden">Режим просмотра.</h3>
             <a class="button-mode button-mode-active" href="#">
               <span class="visually-hidden" hidden>Показать плиткой.</span>
-              <svg class="button-mode-svg" width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M4 0H0V6H4V0Z" fill="black"/>
-                <path d="M16 0H12V6H16V0Z" fill="black"/>
-                <path d="M10 0H6V6H10V0Z" fill="black"/>
-                <path d="M4 8H0V14H4V8Z" fill="black"/>
-                <path d="M16 8H12V14H16V8Z" fill="black"/>
-                <path d="M10 8H6V14H10V8Z" fill="black"/>
-                </svg>
+              <svg class="button-mode-svg" width="16" height="14" viewBox="0 0 16 14" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path d="M4 0H0V6H4V0Z" fill="black" />
+                <path d="M16 0H12V6H16V0Z" fill="black" />
+                <path d="M10 0H6V6H10V0Z" fill="black" />
+                <path d="M4 8H0V14H4V8Z" fill="black" />
+                <path d="M16 8H12V14H16V8Z" fill="black" />
+                <path d="M10 8H6V14H10V8Z" fill="black" />
+              </svg>
             </a>
             <a class="button-mode" href="#">
               <span class="visually-hidden" hidden>Показать слайды.</span>
-              <svg class="button-mode-svg" width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M16 12H0V14H16V12Z" fill="black"/>
-                <path d="M14 2V8H2V2H14ZM16 0H0V10H16V0Z" fill="black"/>
-                </svg>
+              <svg class="button-mode-svg" width="16" height="14" viewBox="0 0 16 14" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path d="M16 12H0V14H16V12Z" fill="black" />
+                <path d="M14 2V8H2V2H14ZM16 0H0V10H16V0Z" fill="black" />
+              </svg>
             </a>
             <a class="button-mode" href="#">
               <span class="visually-hidden" hidden>Показать списком.</span>
-              <svg class="button-mode-svg" width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M2 0H0V2H2V0Z" fill="black"/>
-                <path d="M16 0H4V2H16V0Z" fill="black"/>
-                <path d="M2 4H0V6H2V4Z" fill="black"/>
-                <path d="M16 4H4V6H16V4Z" fill="black"/>
-                <path d="M2 8H0V10H2V8Z" fill="black"/>
-                <path d="M16 8H4V10H16V8Z" fill="black"/>
-                <path d="M2 12H0V14H2V12Z" fill="black"/>
-                <path d="M16 12H4V14H16V12Z" fill="black"/>
-                </svg>
+              <svg class="button-mode-svg" width="16" height="14" viewBox="0 0 16 14" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path d="M2 0H0V2H2V0Z" fill="black" />
+                <path d="M16 0H4V2H16V0Z" fill="black" />
+                <path d="M2 4H0V6H2V4Z" fill="black" />
+                <path d="M16 4H4V6H16V4Z" fill="black" />
+                <path d="M2 8H0V10H2V8Z" fill="black" />
+                <path d="M16 8H4V10H16V8Z" fill="black" />
+                <path d="M2 12H0V14H2V12Z" fill="black" />
+                <path d="M16 12H4V14H16V12Z" fill="black" />
+              </svg>
             </a>
           </section>
         </div>
-        </section>
         <section class="catalog">
           <h2 class="visually-hidden">Список товаров с описанием.</h2>
-          <ul class="product-card">
-            <li class="product-card-item">
-              <a class="product-card-hotel" href="#">
-                <img class="product-card-image" src="images/hotel-1.jpg" width="300" height="206" alt="Фото гостиницы.">
-              </a>
-              <a class="product-card-link" href="#">
-                <h3 class="product-card-title">Amara Resort & Spa</h3>
-              </a>
-              <span class="product-card-type-home">Гостиница</span>
-              <span class="product-card-price">От 4000 ₽</span>
-              <a class="button-catalog button-detail" href="#">подробнее</a>
-              <a class="button-catalog  button-favorite" href="#">В избранное</a>
-              <ul class="rang">
-                <li class="rang-item">
-                  <img class="rang-star" src="images/star.svg" width="18" height="17" alt="звезда 1.">
-                </li>
-                <li class="rang-item">
-                  <img class="rang-star" src="images/star.svg" width="18" height="17" alt="звезда 2.">
-                </li>
-                <li class="rang-item">
-                  <img class="rang-star" src="images/star.svg" width="18" height="17" alt="звезда 3.">
-                </li>
-                <li class="rang-item">
-                  <img class="rang-star" src="images/star.svg" width="18" height="17" alt="звезда 4.">
-                </li>
-              </ul>
 
-              <strong class="button-catalog button-rang">Рейтинг: 8,5</strong>
+          <ul class="product-card">
+            <div class="card-wrapper">
+              <li class="product-card-item">
+                <a class="product-card-hotel" href="#">
+                  <img class="product-card-image" src="images/hotel-1.jpg" width="300" height="206" alt="Фото гостиницы.">
+                </a>
+                <a class="product-card-link" href="#">
+                  <h3 class="product-card-title">Amara Resort & Spa</h3>
+                </a>
+                <span class="product-card-type-home">Гостиница</span>
+                <span class="product-card-price">От 4000 ₽</span>
+                <a class="button-catalog button-detail" href="#">подробнее</a>
+                <a class="button-catalog  button-favorite" href="#">В избранное</a>
+                <ul class="rang">
+                  <li class="rang-item">
+                    <img class="rang-star" src="images/star.svg" width="18" height="17" alt="звезда 1.">
+                  </li>
+                  <li class="rang-item">
+                    <img class="rang-star" src="images/star.svg" width="18" height="17" alt="звезда 2.">
+                  </li>
+                  <li class="rang-item">
+                    <img class="rang-star" src="images/star.svg" width="18" height="17" alt="звезда 3.">
+                  </li>
+                  <li class="rang-item">
+                    <img class="rang-star" src="images/star.svg" width="18" height="17" alt="звезда 4.">
+                  </li>
+                </ul>
+                <strong class="button-catalog button-rang">Рейтинг: 8,5</strong>
             </li>
+          </div>
+            <div class="card-wrapper">
             <li class="product-card-item">
               <a class="product-card-hotel" href="#">
                 <img class="product-card-image" src="images/hotel-2.jpg" width="300" height="206" alt="Фото гостиницы.">
@@ -282,6 +273,8 @@
               </ul>
               <strong class="button-catalog button-rang">Рейтинг: 9,2</strong>
             </li>
+          </div>
+          <div class="card-wrapper">
             <li class="product-card-item">
               <a class="product-card-hotel" href="#">
                 <img class="product-card-image" src="images/hotel-3.jpg" width="300" height="206" alt="Фото гостиницы.">
@@ -306,6 +299,8 @@
               </ul>
               <strong class="button-catalog button-rang">Рейтинг: 6,9</strong>
             </li>
+          </div>
+          <div class="card-wrapper">
             <li class="product-card-item">
               <a class="product-card-hotel" href="#">
                 <img class="product-card-image" src="images/hotel-4.jpg" width="300" height="206" alt="Фото гостиницы.">
@@ -327,8 +322,10 @@
               </ul>
               <strong class="button-catalog button-rang">Рейтинг: 5,0</strong>
             </li>
+          </div>
           </ul>
         </section>
+        <div class="vertical-stripe"></div>
         <div class="pagination-page">
           <ul class="pagination">
             <li class="pagination-item pagination-item-active">
@@ -356,11 +353,13 @@
           <h2 class="info-email-title-catalog">Подпишитесь на рассылку</h2>
           <p class="info-email-description-catalog">Только полезная информация и никакого спама,<br> честное
             бойскаутское!</p>
-          <form class="appointment-form" action="https://echo.htmlacademy.ru/" method="post">
-            <input class="field" type="text" id="appointment-name" name="appointment-name" placeholder="Ваш e-mail"
-              required>
-            <input class="appointment-submit" type="submit" value="Подписаться">
-          </form>
+            <form class="new-form" action="http://echo.htmlacademy.ru/" method="post">
+              <label for="email">
+                <span class="visually-hidden">Введите e-mail.</span>
+              </label>
+              <input class="field field-catalog" type="email" id="email" placeholder="Ваш e-mail" name="new-email" required>
+              <button class="button-email" type="submit"> Подписаться</button>
+            </form>
         </section>
         <footer class="page-footer">
           <div class="page-footer-container">
@@ -370,24 +369,28 @@
                 <li class="footer-social-item">
                   <a class="social-button" href="https://vk.com/htmlacademy">
                     <span class="visually-hidden">Вконтакте.</span>
-                    <svg class="social-icon social-icon-vk" aria-hidden="true" width="25" height="15" viewBox="0 0 25 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path  d="M24.1164 1.80445C24.2824 1.25845 24.1164 0.856445 23.3214 0.856445H20.6964C20.0284 0.856445 19.7204 1.20345 19.5534 1.58645C19.5534 1.58645 18.2184 4.78245 16.3274 6.85845C15.7154 7.46045 15.4374 7.65145 15.1034 7.65145C14.9364 7.65145 14.6854 7.46045 14.6854 6.91345V1.80445C14.6854 1.14845 14.5014 0.856445 13.9454 0.856445H9.81738C9.40038 0.856445 9.14938 1.16045 9.14938 1.44945C9.14938 2.07045 10.0954 2.21445 10.1924 3.96245V7.76045C10.1924 8.59345 10.0394 8.74444 9.70538 8.74444C8.81538 8.74444 6.65038 5.53345 5.36538 1.85945C5.11638 1.14445 4.86438 0.856445 4.19338 0.856445H1.56638C0.816382 0.856445 0.666382 1.20345 0.666382 1.58645C0.666382 2.26845 1.55638 5.65645 4.81138 10.1374C6.98138 13.1974 10.0364 14.8564 12.8194 14.8564C14.4884 14.8564 14.6944 14.4884 14.6944 13.8534V11.5404C14.6944 10.8034 14.8524 10.6564 15.3814 10.6564C15.7714 10.6564 16.4384 10.8484 17.9964 12.3234C19.7764 14.0724 20.0694 14.8564 21.0714 14.8564H23.6964C24.4464 14.8564 24.8224 14.4884 24.6064 13.7604C24.3684 13.0364 23.5184 11.9854 22.3914 10.7384C21.7794 10.0284 20.8614 9.26345 20.5824 8.88045C20.1934 8.38945 20.3044 8.17044 20.5824 7.73345C20.5824 7.73345 23.7824 3.30745 24.1154 1.80445H24.1164Z" />
-                      </svg>
+                    <svg class="social-icon social-icon-vk" aria-hidden="true" width="25" height="15"
+                      viewBox="0 0 25 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M24.1164 1.80445C24.2824 1.25845 24.1164 0.856445 23.3214 0.856445H20.6964C20.0284 0.856445 19.7204 1.20345 19.5534 1.58645C19.5534 1.58645 18.2184 4.78245 16.3274 6.85845C15.7154 7.46045 15.4374 7.65145 15.1034 7.65145C14.9364 7.65145 14.6854 7.46045 14.6854 6.91345V1.80445C14.6854 1.14845 14.5014 0.856445 13.9454 0.856445H9.81738C9.40038 0.856445 9.14938 1.16045 9.14938 1.44945C9.14938 2.07045 10.0954 2.21445 10.1924 3.96245V7.76045C10.1924 8.59345 10.0394 8.74444 9.70538 8.74444C8.81538 8.74444 6.65038 5.53345 5.36538 1.85945C5.11638 1.14445 4.86438 0.856445 4.19338 0.856445H1.56638C0.816382 0.856445 0.666382 1.20345 0.666382 1.58645C0.666382 2.26845 1.55638 5.65645 4.81138 10.1374C6.98138 13.1974 10.0364 14.8564 12.8194 14.8564C14.4884 14.8564 14.6944 14.4884 14.6944 13.8534V11.5404C14.6944 10.8034 14.8524 10.6564 15.3814 10.6564C15.7714 10.6564 16.4384 10.8484 17.9964 12.3234C19.7764 14.0724 20.0694 14.8564 21.0714 14.8564H23.6964C24.4464 14.8564 24.8224 14.4884 24.6064 13.7604C24.3684 13.0364 23.5184 11.9854 22.3914 10.7384C21.7794 10.0284 20.8614 9.26345 20.5824 8.88045C20.1934 8.38945 20.3044 8.17044 20.5824 7.73345C20.5824 7.73345 23.7824 3.30745 24.1154 1.80445H24.1164Z" />
+                    </svg>
                   </a>
                 </li>
                 <li class="footer-social-item">
                   <a class="social-button" href="https://t.me/htmlacademy">
                     <span class="visually-hidden">Телеграм.</span>
-                    <svg class="social-icon social-icon-tg" aria-hidden="true" width="18" height="16" viewBox="0 0 18 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M16.785 0.955705L0.840489 7.1042C-0.247661 7.54126 -0.241365 8.14828 0.640845 8.41897L4.73445 9.69597L14.2058 3.72014C14.6537 3.44766 15.0629 3.59424 14.7265 3.89281L7.05283 10.8183H7.05103L7.05283 10.8192L6.77045 15.0387C7.18413 15.0387 7.36669 14.8489 7.59871 14.625L9.58705 12.6915L13.7229 15.7464C14.4855 16.1664 15.0332 15.9506 15.2229 15.0405L17.9379 2.2453C18.2158 1.13107 17.5126 0.626562 16.785 0.955705Z" />
-                      </svg>
+                    <svg class="social-icon social-icon-tg" aria-hidden="true" width="18" height="16"
+                      viewBox="0 0 18 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M16.785 0.955705L0.840489 7.1042C-0.247661 7.54126 -0.241365 8.14828 0.640845 8.41897L4.73445 9.69597L14.2058 3.72014C14.6537 3.44766 15.0629 3.59424 14.7265 3.89281L7.05283 10.8183H7.05103L7.05283 10.8192L6.77045 15.0387C7.18413 15.0387 7.36669 14.8489 7.59871 14.625L9.58705 12.6915L13.7229 15.7464C14.4855 16.1664 15.0332 15.9506 15.2229 15.0405L17.9379 2.2453C18.2158 1.13107 17.5126 0.626562 16.785 0.955705Z" />
+                    </svg>
                   </a>
                 </li>
                 <li class="footer-social-item">
                   <a class="social-button" href="https://www.youtube.com/c/HTMLAcademyRUS">
                     <span class="visually-hidden">YouTube.</span>
-                    <svg class="social-icon social-icon-yt" aria-hidden="true" width="20" height="16" viewBox="0 0 20 16"
-                      fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <svg class="social-icon social-icon-yt" aria-hidden="true" width="20" height="16"
+                      viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path
                         d="M17 0H2.9C1.2 0 0 1.5 0 3.2v9.5C0 14.5 1.2 16 2.9 16h14.3c1.5 0 2.9-1.5 2.9-3.2V3.2C19.9 1.5 18.7 0 17 0ZM7 11.8V4.2L13.7 8 7 11.8Z" />
                     </svg>
